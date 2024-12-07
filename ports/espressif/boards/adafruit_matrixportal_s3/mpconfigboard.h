@@ -31,12 +31,4 @@
 
 #define MICROPY_HW_NEOPIXEL (&pin_GPIO10)
 
-#define MICROPY_HW_LED_STATUS (&pin_GPIO4)
-
-#define DEFAULT_I2C_BUS_SCL (&pin_GPIO5)
-#define DEFAULT_I2C_BUS_SDA (&pin_GPIO6)
-
-#define DEFAULT_UART_BUS_RX (&pin_GPIO7)
-#define DEFAULT_UART_BUS_TX (&pin_GPIO15)
-
 #define DOUBLE_TAP_PIN (&pin_GPIO0)
